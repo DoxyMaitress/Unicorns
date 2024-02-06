@@ -1,0 +1,26 @@
+[
+  {
+    "_id": {
+      "timestamp": 1707209187,
+      "counter": 13051786,
+      "randomValue1": 12818263,
+      "randomValue2": 8424
+    },
+    "name": "Sparkle",
+    "color": "Rainbow",
+    "location": "Enchanted Forest",
+    "magicPower": "Invisibility"
+  },
+  {
+    "_id": {
+      "timestamp": 1707211095,
+      "counter": 5847850,
+      "randomValue1": 11157825,
+      "randomValue2": 28475
+    },
+    "name": "pe",
+    "color": "rosa",
+    "location": "sevilla",
+    "magicPower": "magic"
+  }
+]
