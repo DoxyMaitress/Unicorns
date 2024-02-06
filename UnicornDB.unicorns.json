@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "65c1f1e3c3975720e8c7278a"
+  },
+  "name": "Sparkle",
+  "color": "Rainbow",
+  "location": "Enchanted Forest",
+  "magicPower": "Invisibility"
+},
+{
+  "_id": {
+    "$oid": "65c1f957aa41416f3b593b2a"
+  },
+  "name": "pe",
+  "color": "rosa",
+  "location": "sevilla",
+  "magicPower": "magic"
+},
+{
+  "_id": {
+    "$oid": "65c20a8ac3975720e8c7278d"
+  },
+  "name": "rosa",
+  "color": "rosa",
+  "location": "madrid",
+  "magicPower": "rayo"
+}]
