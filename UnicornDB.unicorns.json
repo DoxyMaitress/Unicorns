@@ -24,4 +24,49 @@
   "color": "rosa",
   "location": "madrid",
   "magicPower": "rayo"
+},
+{
+  "_id": {
+    "$oid": "65c48e5c231ca30004da73e4"
+  },
+  "name": "perla",
+  "color": "azul",
+  "location": "aqualand",
+  "magicPower": "agua"
+},
+{
+  "_id": {
+    "$oid": "65c48ea3b47e02caf983b4f5"
+  },
+  "name": "Luna",
+  "color": "Blanco",
+  "location": "Bosque Encantado",
+  "magicPower": "Teletransportación"
+},
+{
+  "_id": {
+    "$oid": "65c48ea3b47e02caf983b4f6"
+  },
+  "name": "Estrella",
+  "color": "Plateado",
+  "location": "Valle de las Mariposas",
+  "magicPower": "Curación"
+},
+{
+  "_id": {
+    "$oid": "65c48ea3b47e02caf983b4f7"
+  },
+  "name": "Rayo",
+  "color": "Dorado",
+  "location": "Montañas Celestiales",
+  "magicPower": "Control del Tiempo"
+},
+{
+  "_id": {
+    "$oid": "65c48ea3b47e02caf983b4f8"
+  },
+  "name": "Ciruela",
+  "color": "Rosa",
+  "location": "Pradera Mágica",
+  "magicPower": "Ilusión"
 }]
