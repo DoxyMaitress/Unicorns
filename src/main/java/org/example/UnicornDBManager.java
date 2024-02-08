@@ -23,8 +23,8 @@ import java.util.Scanner;
 import static java.util.Arrays.asList;
 
 public class UnicornDBManager {
-    private MongoDatabase database;
-    private Scanner scanner;
+    private final MongoDatabase database;
+    private final Scanner scanner;
 
     public UnicornDBManager(MongoDatabase database) {
         this.database = database;
@@ -148,7 +148,7 @@ public class UnicornDBManager {
     public void countUnicornsByColor() {
         try {
             MongoCollection<Document> collection = database.getCollection("unicorns");
-            AggregateIterable<Document> result = collection.aggregate(asList(
+            AggregateIterable<Document> result = collection.aggregate(List.of(
                     Aggregates.group("$color", Accumulators.sum("count", 1))
             ));
 
@@ -256,6 +256,7 @@ public class UnicornDBManager {
 
 
     private void importFromCsv(String filePath) { //comprobar tu Gabriela
+        //comprobado*
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             MongoCollection<Document> collection = database.getCollection("unicorns");

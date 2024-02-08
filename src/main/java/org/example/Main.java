@@ -21,10 +21,10 @@ public class Main {
                 System.out.println("4. Eliminar Unicornio");
                 System.out.println("5. Mostrar Todos los Unicornios");
                 System.out.println("6. Buscar Unicornios por Color");
-                System.out.println("8. Contar Unicornios por Color");
-                System.out.println("9. Exportar Datos (CSV/JSON)");
-                System.out.println("10. Importar Datos (CSV/JSON)");
-                System.out.println("11. Salir");
+                System.out.println("7. Contar Unicornios por Color");
+                System.out.println("8. Exportar Datos (CSV/JSON)");
+                System.out.println("9. Importar Datos (CSV/JSON)");
+                System.out.println("10. Salir");
                 System.out.print("Elige una opción: ");
 
                 int option = scanner.nextInt();
@@ -49,19 +49,16 @@ public class Main {
                         manager.searchUnicornsByColor();
                         break;
                     case 7:
-                        manager.deleteAllUnicorns();
-                        break;
-                    case 8:
                         manager.countUnicornsByColor();
                         break;
-                    case 9:
+                    case 8:
                         System.out.print("Formato para exportar (csv/json): ");
                         scanner.nextLine();
                         String exportFormat = scanner.nextLine();
                         manager.exportData(exportFormat);
                         break;
 
-                    case 10:
+                    case 9:
                         System.out.print("Formato para importar (csv/json): ");
                         scanner.nextLine();
                         String importFormat = scanner.nextLine();
@@ -69,7 +66,7 @@ public class Main {
                         String filePath = scanner.nextLine();
                         manager.importData(importFormat, filePath);
                         break;
-                    case 11:
+                    case 10:
                         System.out.println("Saliendo del programa.");
                         scanner.close();
                         return;
@@ -80,3 +77,4 @@ public class Main {
         }
     }
 }
+//corregido correctamente
